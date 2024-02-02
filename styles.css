@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    color: #00EA06;
+}
+
+#passwordPrompt {
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}

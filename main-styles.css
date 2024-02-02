@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column; /* Adjust the flex direction to column */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000000; /* Black background */
+    color: #E5E4E2; /* Platinum text color */
+}
+
+#summary {
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.4;
+}
+
+#summary h1 {
+    font-size: 40px;
+    color: #00FF07;
+}
+
+#summary p {
+    font-size: 20px;
+}
+
+#pageLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto; /* Push links to the bottom */
+}
+
+.pageLink {
+    color: #00FF07;
+    text-decoration: none;
+}
+
+.pageLink:hover {
+    text-decoration: underline;
+}
